@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300&display=swap');
+
+* {
+  font-family: 'Overpass Mono', monospace;
+}
+/*teste*/
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  color: #fff;
+  text-align: center;
+  padding: 0px;
+}
+
+div.menu {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: -40px;
+  padding-top: 20px;
+  margin-left: 600px;
+  margin-right: 600px;
+  background-color: #4a8340;
+  border-radius: 10px;
+}
+
+.fds {
+  background-color: #4a8340;
+  padding: 20px;
+  margin-top: -20px;
+  padding-left: 60px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 15px;
+  font-weight: bolder;
+}
+
+#menu-link-meio {
+  border-left: solid 3px white;
+  border-right: solid 3px white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-items {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner {
+  width: 15%;
+  height: auto;
+}
+
+#banner-if {
+  width: 20%;
+}
+
+.green-bar {
+  background-color: green;
+  color: #fff;
+  text-align: center;
+  margin: 0px;
+}
+
+.green-bar p {
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bolder;
+  font-family: 'Overpass Mono', monospace;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 0px;
+  margin: 0px;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 15px 17px 15px 17px;
+  padding-right: 20px;
+  border-right: 1px solid #ccc;
+  background-color: #7bba70;
+}
+
+.sidebar-botao {
+  text-decoration: none;
+  background-color: #b6feb9;
+  margin: 3px 4px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #84da87;
+  border-radius: 15px;
+  padding: 14px;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.main-filtro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-item {
+  margin: 15px 5px;
+}
+
+#descricao {
+  align-self: stretch;
+  width: 200%;
+  height: 100px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  align-self: flex-end;
+}
