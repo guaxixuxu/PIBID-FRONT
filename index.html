@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://thymeleaf.org">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/styles/index.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles/index.css" media="screen" />
     <title>IFTM - PROJETOS PIBID</title>
 </head>
 
@@ -29,116 +29,158 @@
                 EDUCACIÓN || ОБРАЗОВАНИЕ || 教育</p>
         </div>
     </header>
+
     <main>
-        <div class="sidebar">
-            <div class="sidebar-botao">
-                <details>
-                    <summary>Início</summary>
-                    <div class="menu-item">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </details>
-            </div>
-            <div class="sidebar-botao">
-                <details>
-                    <summary>Sobre o PIBID</summary>
-                    <div class="menu-item">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </details>
-            </div>
-            <div class="sidebar-botao">
-                <details>
-                    <summary>Editais</summary>
-                    <div class="menu-item">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </details>
-            </div>
-            <div class="sidebar-botao">
-                <details>
-                    <summary>Subprojetos</summary>
-                    <div class="menu-item">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </details>
-            </div>
-            <div class="sidebar-botao">
-                <details>
-                    <summary>Editais</summary>
-                    <div class="menu-item">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </details>
-            </div>
-            <div class="sidebar-botao">
-                <details>
-                    <summary>Documentação</summary>
-                    <div class="menu-item">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </details>
-            </div>
-            <div class="sidebar-botao">
-                <details>
-                    <summary>Notícias</summary>
-                    <div class="menu-item">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </details>
-            </div>
-            <div class="sidebar-botao">
-                <details>
-                    <summary>Certificados</summary>
-                    <div class="menu-item">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </details>
+        <!-- Sidebar -->
+        <div class="main-sidebar">
+            <div class="sidebar">
+                <div class="sidebar-botao">
+                    <details>
+                        <summary>Início</summary>
+                        <div class="menu-item">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </details>
+                </div>
+                <div class="sidebar-botao">
+                    <details>
+                        <summary>Sobre o PIBID</summary>
+                        <div class="menu-item">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </details>
+                </div>
+                <div class="sidebar-botao">
+                    <details>
+                        <summary>Editais</summary>
+                        <div class="menu-item">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </details>
+                </div>
+                <div class="sidebar-botao">
+                    <details>
+                        <summary>Subprojetos</summary>
+                        <div class="menu-item">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </details>
+                </div>
+                <div class="sidebar-botao">
+                    <details>
+                        <summary>Editais</summary>
+                        <div class="menu-item">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </details>
+                </div>
+                <div class="sidebar-botao">
+                    <details>
+                        <summary>Documentação</summary>
+                        <div class="menu-item">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </details>
+                </div>
+                <div class="sidebar-botao">
+                    <details>
+                        <summary>Notícias</summary>
+                        <div class="menu-item">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </details>
+                </div>
+                <div class="sidebar-botao">
+                    <details>
+                        <summary>Certificados</summary>
+                        <div class="menu-item">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </details>
+                </div>
             </div>
         </div>
-
 
         </div>
         <!-- Filtros  -->
 
-        <div class="main-filtro">
-            <div id="filter">
-                <h4>Filtrar:</h4>
-                <select id="filter-select">
-                    <option value="all">Uberlândia Centro</option>
-                    <option value="done">Uberaba</option>
-                    <option value="todo">Uberlândia</option>
-                </select>
-
+        <div class="container-main">
+            <div class="main-filter">
                 <div id="filter">
-                    <h4>Filtrar:</h4>
+                    <h4>Campus:</h4>
                     <select id="filter-select">
-                        <option value="all">Todos</option>
-                        <option value="done">Feitos</option>
-                        <option value="todo">A fazer</option>
+                        <option value="">Selecione</option>
+                        <option value="Uberlândia Centro">Uberlândia Centro</option>
+                        <option value="Uberaba">Uberaba</option>
+                        <option value="Uberlândia">Uberlândia</option>
                     </select>
                 </div>
+                <div id="filter">
+                    <h4>Curso:</h4>
+                    <select id="filter-select">
+                        <option value="">Selecione</option>
+                        <option value="Computação">Computação</option>
+                        <option value="Química">Química</option>
+                        <option value="Biologia">Biologia</option>
+                    </select>
+                </div>
+                <div id="filter">
+                    <h4>Tipo:</h4>
+                    <select id="filter-select">
+                        <option value="">Selecione</option>
+                        <option value="Computação">Prova</option>
+                        <option value="Química">Plano de Aula</option>
+                        <option value="Biologia">Minicurso</option>
+                    </select>
+                </div>
+            </div>
 
+
+            <!-- Posts -->
+
+            <div class="container-posts">
+                <div class="container-posts-post">
+
+                    <div th:each="atividade : ${lista}" class="container-posts-post-left">
+                        <h2>aula</h2>
+                        <h3>data</h3>
+                        <h2>titulo da atividade</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been
+                        </p>
+                        <a href="">Ler mais >>></a>
+                    </div>
+
+                    <div class="container-post-logo">
+                        <h3>campus aqui</h3>
+                        <p>teste</p>
+                        <img src="/imgs/logo-padrao.png" alt="">
+                    </div>
+
+                </div>
+            </div>
     </main>
     <footer>
         <p>Créditos do Site &copy; 2023</p>
     </footer>
+
+    <script scr="./db.json"></script>
 </body>
 
 </html>
